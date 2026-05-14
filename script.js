@@ -1,7 +1,7 @@
 const levels = [
-    { answer: 'Hiking', nextVideo: '8947-215890483_medium.mp4' },
-    { answer: 'Earth', nextVideo: '8947-215890483_medium.mp4' },
-    { answer: 'planet', nextVideo: '' } 
+    { answer: 'Flowers', nextVideo: '8947-215890483_medium.mp4' },
+    { answer: 'Earth', nextVideo: '' },
+
 ];
 
 
