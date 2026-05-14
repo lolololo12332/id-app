@@ -1,0 +1,39 @@
+html{
+    color-scheme:  dark;
+    header{
+        display: flex;
+        justify-content: space-between;
+        output{
+            font-family: monospace;
+            font-size: 2rem;
+        }
+    }
+}
+
+main{
+    display: flex;
+    gap: 1rem;
+    form{
+        flex: 1; /* Allows items to grow equally */
+        width: 50%;
+        zoom: 2;
+        background: rgb(206, 185, 185);
+        opacity: 0.5;
+    }
+    video{
+        flex: 1; /* Allows items to grow equally */
+        width: 50%;
+    }
+}
+@media screen and (max-width: 600px){
+    main{
+        flex-direction: column;
+        form{
+            width: 100%;
+        }
+        video{
+            width: 100%;
+        }
+    }
+    
+}
